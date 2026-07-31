@@ -1,7 +1,7 @@
 # Week 03 Log — Data Exploration Sprint
 
 **Week:** 3  
-**Date Range:** 21-07-2026 to 27-07-2026  
+**Date Range:** 24-07-2026 to 30-07-2026  
 **Team:** [10]  
 **Project:** P10 – ShipTrack: Supply Chain Visibility Hub
 
