@@ -1,7 +1,7 @@
 # Week 02 Log — Meet the Data: Contracts, Grains and Checksums
 
 **Week:** 2  
-**Date Range:** 21 July 2026 – 27 July 2026  
+**Date Range:** 17 July 2026 – 23 July 2026  
 **Team:** Team 10  
 **Project:** ShipTrack – Supply Chain Visibility Hub
 
