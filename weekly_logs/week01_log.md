@@ -1,7 +1,7 @@
 # Week 01 Log — Project Setup & Planning
 
 **Week:** 1  
-**Date Range:** 14 July 2026 – 20 July 2026  
+**Date Range:** 10 July 2026 – 16 July 2026  
 **Team:** Team 10  
 **Project:** ShipTrack – Supply Chain Visibility Hub
 
