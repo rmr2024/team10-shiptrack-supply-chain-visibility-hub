@@ -1,58 +1,65 @@
 # Problem Charter
 
-**Week:** 1  
-**Owner(s):** [Student names]  
-**Project:** [Project title]
+**Week:** 1
+
+**Project:** ShipTrack – Supply Chain Visibility Hub
+
+**Owners:** G. Shivani, B. Likhitha, R. Meenakshi Reddy
 
 ---
 
-## 1. Problem Context
+# 1. Problem Context
 
-Supply Chain Visibility Hub is a project that tracks the movement of products from suppliers to customers. It collects data such as orders, shipments, and inventory, then cleans and processes it to generate useful insights. The final dashboard helps managers monitor inventory, track deliveries, and make better business decisions.
----
+Supply chain organizations generate large amounts of data from orders, shipments, warehouses, suppliers, and inventory systems. This data is often stored in different formats, making it difficult to monitor operations, identify delays, and make timely business decisions.
 
-## 2. Engineering Problem
-
-The project converts raw supply chain data such as orders, shipments, inventory, and warehouse records into clean and trusted Bronze, Silver, Data Quality, and Gold layers using Databricks. The processed data is then visualized in Power BI dashboards to provide real-time supply chain insights and support better business decisions.
+ShipTrack addresses this challenge by building an end-to-end data engineering pipeline that ingests, cleans, validates, and transforms raw supply chain data into reliable datasets for reporting and analytics.
 
 ---
 
-## 3. Users / Stakeholders
+# 2. Engineering Problem
 
-| **User / Stakeholder**   | **What they need from the data**                                |
-| ------------------------ | --------------------------------------------------------------- |
-| **Supply Chain Manager** | Track shipments, inventory, and delivery status in real time.   |
-| **Warehouse Manager**    | Monitor stock levels and identify low inventory.                |
-| **Logistics Team**       | Track shipments and detect delivery delays.                     |
-| **Business Analyst**     | Analyze trends and generate reports for better decision-making. |
+Design and implement a scalable Medallion Architecture using Databricks that converts raw supply chain datasets into trusted Bronze, Silver, and Gold layers. Apply data quality validation and generate business-ready datasets that can be visualized in Power BI dashboards while supporting streaming simulation for shipment events.
 
+---
 
-## 4. Scope Inclusions
+# 3. Users / Stakeholders
 
-List what the team will build.
+| Stakeholder | Data Requirement |
+|-------------|------------------|
+| Supply Chain Manager | Monitor shipment progress and inventory |
+| Warehouse Manager | Track stock levels and warehouse operations |
+| Logistics Team | Detect shipment delays and optimize delivery |
+| Business Analyst | Generate reports and business insights |
 
-- Raw source files
-- Bronze ingestion
-- Silver standardization
-- Data quality checks
-- Gold metrics
-- Power BI dashboard
+---
+
+# 4. Scope (Included)
+
+The project will include:
+
+- Source datasets
+- Bronze data ingestion
+- Silver transformations
+- Data Quality validation
+- Gold business metrics
+- Power BI dashboards
 - Streaming simulation
-- GitHub evidence
+- GitHub documentation
+- Weekly sprint evidence
 
 ---
 
-## 5. Scope Exclusions
+# 5. Scope (Excluded)
 
-List what the team will not build.
+The project will not include:
 
-Examples:
-
-- No production application
-- No real customer data
-- No payment gateway integration
-- No copied internet project submission
-- No fake screenshots or unexplained AI-generated work
+- Production deployment
+- Live customer data
+- ERP integration
+- Payment systems
+- Mobile application
+- Third-party logistics APIs
+- Copied external projects
 
 ---
 
